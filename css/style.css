@@ -1,1 +1,35 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.feat-topics{
+    margin-left: 1rem;
+    padding: 1.5rem;
+}
+.feat-topics h2{
+    margin-bottom: 1rem;
+}
+.feat-container{
+    display: flex;
+    gap: 7rem;
+}
+.feat-container p{
+    font-weight: bold;
+}
+.feat-container a{
+    color: blue;
+}
+.topic-links{
+    margin-bottom: 0.5rem;
+    margin-top: 1em;
+}
+.explore-link{
+    margin-top: 2rem;
+}
+.explore-link a{
+    border: 1px solid black;
+    padding: 0.7rem;
+    color: black;
+    text-decoration: none;
+}
