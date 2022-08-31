@@ -1,3 +1,5 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
 *{
   margin: 0px;
   padding: 0px;
@@ -76,7 +78,43 @@
 
 
 /*the style for the footer section should be after this comment*/
-
-
-
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  color: lightgray;
+  font-family: 'Intern', sans-serif;
+  padding: 10px;
+}
+.footer_top {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.footer_links {
+  margin-bottom: 40px;
+}
+.footer_links li{
+  margin-top: 10px;
+  list-style-type: none;
+}
+.footer_links a {
+  text-decoration: none;
+  color: lightgray;
+}
+.footer_lang {
+  margin-bottom: 20px;
+}
+.footer_lang button {
+  padding: 5px;
+  width: 100px;
+  background-color: inherit;
+  border: 1px solid lightgray;
+}
+.footer_lang  a {
+  text-decoration: none;
+  color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_env {
+  margin-bottom: 15px;
+}
 
