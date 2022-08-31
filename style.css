@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: #1c1d1f;
+    margin: 0;
+}
+
+.udlite-container {
+    width: 100%;
+    max-width: 134rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+}
+
+.udlite-full-width-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.course-card--image-wrapper--1F9ny {
+    background-color: #1c1d1f;
+    border: 1px solid #d1d7dc;
+    overflow: hidden;
+    position: relative;
+}
+
+.course-card--container--1QM2W {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.course-card--small--2R6G8, .course-card--large--2aYkn {
+    min-width: 22.2rem;
+    max-width: 55.2rem;
+}
+
+.course-card--fixed--2TD2n {
+    width: 17.3rem;
+}
+
+.course-card--small--2R6G8 .course-card--image-wrapper--1F9ny, .course-card--large--2aYkn .course-card--image-wrapper--1F9ny {
+    margin-right: 0.8rem;
+}
+
+.course-card--course-image--3QvbQ {
+    display: block;
+    transition: opacity linear 100ms;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.course-card--main-content--2XqiY {
+    color: #1c1d1f;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 1px;
+}
+
+.course-card--main-content--2XqiY>*:not(:last-child) {
+    margin-bottom: 0.4rem;
+}
+.course-card--course-title--vVEjC {
+    display: block!important;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.udlite-heading-sm {
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.4rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: inherit;
+    font-weight: 400;
+    max-width: 60rem;
+}
+
+.course-card--container--1QM2W h3[data-purpose=course-title-url] a {
+    color: #1c1d1f;
+    font-weight: inherit;
+}
+
+a {
+    color: #5624d0;
+    text-decoration: none;
+}
+
+.udlite-text-xs {
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.udlite-sr-only {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+}
+
+.course-card--instructor-list--nH1OC {
+    color: #6a6f73;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.course-card--row--29Y0w {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.star-rating--star-wrapper--1QyBg {
+    display: inline-flex;
+    align-items: center;
+}
+
+.course-card--reviews-text--1yloi {
+    color: #6a6f73;
+    margin-left: 0.4rem;
+}
+
+.price-text--container--103D9 {
+    align-items: center;
+    color: #1c1d1f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.price-text--price-part--2npPm {
+    line-height: 1;
+    padding: 0.4rem 0;
+    margin-right: 0.8rem;
+    white-space: nowrap;
+}
+
+.udlite-sr-only {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+}
+
+.price-text--price-part--2npPm:last-child {
+    margin-right: 0;
+}
+
+.price-text--original-price--1sDdx {
+    color: #6a6f73;
+}
+
+.price-text--price-part--2npPm {
+    line-height: 1;
+    padding: 0.4rem 0;
+    margin-right: 0.8rem;
+    white-space: nowrap;
+}
+
+.course-card--course-badges--3rpzF {
+    display: flex;
+    margin: 0.8rem 0 0.4rem;
+    gap: 0.4rem 0.8rem;
+}
+
+.udlite-badge-bestseller {
+    background-color: #eceb98;
+    color: #3d3c0a;
+}
+
+.udlite-badge {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    white-space: nowrap;
+}
+
+
+@media (min-width: 23.5em)
+course-card--small--2R6G8, .course-card--large--2aYkn {
+    min-width: 25.6rem;
+}
+
+.course-card--small--2R6G8, .course-card--large--2aYkn {
+    min-width: 22.2rem;
+    max-width: 55.2rem;
+}
+
+.course-card--fixed--2TD2n {
+    width: 17.3rem;
+}
+.course-card--container--1QM2W {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
