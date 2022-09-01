@@ -5,6 +5,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  font-family:'Open Sans', Helvetica, Arial, Sans-Serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+  margin: 0px;
+}
 /*the style for the navbar section should be after this comment*/
 
 
