@@ -7,13 +7,21 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+
 body{
   font-family:'Open Sans', Helvetica, Arial, Sans-Serif;
   font-weight: 400;
+
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+  margin: 0px;
+
   font-size: 1.5rem;
   line-height: 1.4;
   font-size: 1.6rem;
   color: #1c1d1f;
+
 }
 /*the style for the navbar section should be after this comment*/
 
@@ -62,10 +70,12 @@ body{
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
+
 ul.topCategories_subContainer1{
   list-style-type: none;
   box-sizing: border-box;
 }
+
 .topCategories_subContainer1 li{
   color: inherit;
   font-weight: inherit;
@@ -82,6 +92,7 @@ ul.topCategories_subContainer1{
   justify-content: center;
   text-align: center;
 }
+
 .topCategories_subContainer1 a{
   color: inherit;
 }
