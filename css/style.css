@@ -1,11 +1,10 @@
 /* Font family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
 *{
-  padding: 0px;
-  margin: 0px;
-  text-decoration: none;
-  list-style-type: none;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,6 +19,220 @@ body{
   font-size: 1.6rem;
   color: #1c1d1f;
 }
+
+.feat-topics, .instructor, .trust-companies{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+h2{
+    font-weight: 800;
+}
+
+    /* style for featured topics by category */
+.feat-topics{
+    padding: 1rem 3rem 3rem 1rem;
+    background-color: #f7f9f9;
+}
+
+.feat-topics h2{
+    margin-bottom: 1rem;
+}
+
+.feat-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feat-container p{
+    font-weight: bold;
+}
+
+.feat-container a{
+    color: blue;
+}
+
+.topic-links{
+    margin-bottom: 0.5rem;
+    margin-top: 1em;
+}
+
+.explore-link{
+    margin-top: 2rem;
+}
+
+.explore-link a{
+    border: 1px solid black;
+    padding: 0.7rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+    /* style for the three instructor sections */
+.instructor{
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.instructor-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.become-instructor{
+    padding: 2rem;
+}
+
+.instructor-image{
+    padding: 2rem;
+}
+
+.become-instructor h2, .become-instructor p{
+    margin-bottom: 0.7rem;
+}
+
+.become-instructor a{
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    padding: 0.5em 0;
+    border: 1px solid;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.start-teaching{
+    margin-top: 2rem;
+}
+
+
+    /* style for trusted companies section */
+.trust-companies-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trust-companies{
+    background-color: #f7f9f9;
+}
+    /* end of style */
+
+#udemy-business{
+    max-width: 120px;
+}
+
+#business{
+    display: block;
+    width: 80%;
+}
+
+/* media query for phones and tablets */
+@media screen and (max-width:799px){
+    .feat-container{
+        gap: 1em;
+    }
+
+    .feat-topics{
+        padding: 1em;
+    }
+    
+    .explore-link{
+        margin: 2rem auto;
+        width: 100%;
+    }
+    
+    .explore-link a{
+        display: block;
+        max-width: 350px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .instructor{
+        max-width: 375px;
+        margin: auto;
+    }
+    
+    .instructor-container{
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+    }
+    
+    .instructor-image img{
+        display: block;
+        max-width: 300px;
+        padding: 0rem;
+    }
+    
+    .become-instructor{
+        text-align: center;
+        padding: 0rem;
+    }
+    
+    .become-instructor a{
+        display: block;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid;
+    }
+    
+    #udemy-business-container{
+        flex-direction: column-reverse;
+    }
+    
+    .trust-companies-image{
+        position: relative;
+        text-align: center;
+    }
+    
+    .trust-companies-cont h2{
+        text-align: center;
+    }
+    
+    #business{
+        position: relative;
+        margin: auto;
+    }
+}
+    
+    /* media query for medium screen sizes */
+@media screen and (min-width:800px) and (max-width:1000px){
+    .instructor{
+        max-width: 700px;
+    }
+    
+    .instructor-container{
+        gap: 0;
+    }
+    
+    .become-instructor{
+        padding: 0px;
+    }
+    
+    .instructor-image img{
+        display: block;
+        max-width: 300px;
+        padding: 0px;
+    }
+}
+
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+
+
 
 /*the style for the navbar section should be after this comment*/
 
@@ -53,8 +266,8 @@ body{
 
 /*'student are viewing' section ends here*/
 
-/*the style for the 'top categories' section should be after this comment*/
 
+/*the style for the 'top categories' section should be after this comment*/
 .topCategories_container{
   width: 100%;
   margin-left: auto;
@@ -150,6 +363,8 @@ ul.topCategories_subContainer1{
 
 
 /*'educational transformation' section ends here*/
+
+
 
 /*the style for the footer section should be after this comment*/
 footer {
@@ -266,5 +481,3 @@ transform: scale(1.1,1.1);
 .topCategory2 img:hover{
   transform: scale(1.1,1.1);
 }
-
-
