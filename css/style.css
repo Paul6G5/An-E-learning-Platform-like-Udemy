@@ -5,7 +5,7 @@
 }
 /*the style for the navbar section should be after this comment*/
 .logo-udemy {
-    width: 50px;
+    width: 75px;
     margin-right: 10px;
     margin-top: 10px;
     margin-left: 06px;
@@ -14,11 +14,12 @@
     margin-right: 10px;
     text-decoration: none;
     position: relative;
-    top: -10px;
+    top: -3px;
     font-size: 12px;
+    background-color: rgb(215, 216, 219);
 }
 .placeholder {
-    width: 60%;
+    width: 57%;
     height: 30px;
     border-radius: 15px;
     margin-right: 10px;
