@@ -1,8 +1,25 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+  font-family:'Open Sans', Helvetica, Arial, Sans-Serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+  margin: 0px;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+}
+
 .feat-topics, .instructor, .trust-companies{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
@@ -11,58 +28,73 @@
 h2{
     font-weight: 800;
 }
+
     /* style for featured topics by category */
 .feat-topics{
     padding: 1rem 3rem 3rem 1rem;
     background-color: #f7f9f9;
 }
+
 .feat-topics h2{
     margin-bottom: 1rem;
 }
+
 .feat-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .feat-container p{
     font-weight: bold;
 }
+
 .feat-container a{
     color: blue;
 }
+
 .topic-links{
     margin-bottom: 0.5rem;
     margin-top: 1em;
 }
+
 .explore-link{
     margin-top: 2rem;
 }
+
 .explore-link a{
     border: 1px solid black;
     padding: 0.7rem;
     color: black;
     text-decoration: none;
 }
+
+
     /* style for the three instructor sections */
 .instructor{
     max-width: 1000px;
     margin: auto;
     padding: 2rem;
 }
+
 .instructor-container{
     display: flex;
     align-items: center;
     gap: 2rem;
 }
+
 .become-instructor{
     padding: 2rem;
 }
+
 .instructor-image{
     padding: 2rem;
 }
+
 .become-instructor h2, .become-instructor p{
     margin-bottom: 0.7rem;
 }
+
 .become-instructor a{
     display: block;
     max-width: 200px;
@@ -73,62 +105,77 @@ h2{
     color: white;
     background-color: black;
 }
+
 .start-teaching{
     margin-top: 2rem;
 }
+
+
     /* style for trusted companies section */
 .trust-companies-cont{
     display: flex;
     align-items: center;
     flex-direction: column;
-} 
+}
+
 .trust-companies{
     background-color: #f7f9f9;
 }
     /* end of style */
+
 #udemy-business{
     max-width: 120px;
 }
+
 #business{
     display: block;
     width: 80%;
 }
-    /* media query for phones and tablets */
+
+/* media query for phones and tablets */
 @media screen and (max-width:799px){
     .feat-container{
         gap: 1em;
     }
+
     .feat-topics{
         padding: 1em;
     }
+    
     .explore-link{
         margin: 2rem auto;
         width: 100%;
     }
+    
     .explore-link a{
         display: block;
         max-width: 350px;
         text-align: center;
         font-weight: bold;
     }
+    
     .instructor{
         max-width: 375px;
         margin: auto;
     }
+    
     .instructor-container{
         flex-direction: column;
         gap: 0;
         justify-content: center;
     }
+    
     .instructor-image img{
         display: block;
         max-width: 300px;
         padding: 0rem;
     }
+    
     .become-instructor{
         text-align: center;
         padding: 0rem;
     }
+    
     .become-instructor a{
         display: block;
         max-width: 350px;
@@ -136,35 +183,301 @@ h2{
         margin-right: auto;
         border: 1px solid;
     }
+    
     #udemy-business-container{
         flex-direction: column-reverse;
     }
+    
     .trust-companies-image{
         position: relative;
         text-align: center;
     }
+    
     .trust-companies-cont h2{
         text-align: center;
     }
+    
     #business{
         position: relative;
         margin: auto;
     }
 }
+    
     /* media query for medium screen sizes */
 @media screen and (min-width:800px) and (max-width:1000px){
     .instructor{
         max-width: 700px;
     }
+    
     .instructor-container{
         gap: 0;
     }
+    
     .become-instructor{
         padding: 0px;
     }
+    
     .instructor-image img{
         display: block;
         max-width: 300px;
         padding: 0px;
     }
+}
+
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+
+
+
+/*the style for the navbar section should be after this comment*/
+
+
+
+
+
+/*navbar section ends here*/
+
+/*the style for the header section should be after this comment*/
+
+
+
+
+
+/*header section ends here*/
+
+/*the style for the 'course drop-down' section should be after this comment*/
+
+
+
+
+
+/*'course drop-down' section ends here*/
+
+/*the style for the 'student are viewing' section should be after this comment*/
+    
+
+
+
+
+/*'student are viewing' section ends here*/
+
+
+/*the style for the 'top categories' section should be after this comment*/
+.topCategories_container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 1.5rem;
+  margin-top: 1em;
+  box-sizing: border-box;
+}
+
+.topCategories_container h2{
+  font-family: Arial, verdana, Helvetica, Sans-Serif;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+ul.topCategories_subContainer1{
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.topCategories_subContainer1 li{
+  color: inherit;
+  font-weight: inherit;
+  font-size: 0.9rem;
+  font-family: Arial, verdana, Helvetica, Sans-Serif;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  margin-right: 0.1rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.topCategories_subContainer1 a{
+  color: inherit;
+}
+
+.topCategories_subContainer1 li:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.topCategories_subCategories{
+  display: none;
+}
+
+
+
+
+/*'top categories' section ends here*/
+
+/*the style for the 'featured topic by category' should be after this comment*/
+
+
+
+
+
+/*'featured topics' section ends here*/
+
+/*the style for the 'become an instructor' section should be after this comment*/
+
+
+
+
+
+
+/*'become an instructor' section ends here*/
+
+/*the style for the 'trusted companies' section should be after this comment*/
+
+
+
+
+
+
+/*'trusted companies' section ends here*/
+
+/*the style for the 'udemy business' section should be after this comment*/
+
+
+
+
+
+/*'udemy business' section ends here*/
+
+/*the style for the 'educational transformation' section should be after this comment*/
+
+
+
+
+
+/*'educational transformation' section ends here*/
+
+
+
+/*the style for the footer section should be after this comment*/
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  color: lightgray;
+  font-family: 'Intern', sans-serif;
+  padding: 10px;
+}
+
+.footer_top {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer_links {
+  margin-bottom: 40px;
+}
+
+.footer_links li{
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.footer_links a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.footer_lang {
+  margin-bottom: 20px;
+}
+
+.footer_lang button {
+  padding: 5px;
+  width: 100px;
+  background-color: inherit;
+  border: 1px solid lightgray;
+}
+
+.footer_lang  a {
+  text-decoration: none;
+  color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_env {
+  margin-bottom: 15px;
+}
+
+/*footer section ends here*/
+
+@media (min-width: 768px) {
+  .topCategories_subContainer1{
+    display: none;
+  }
+
+  .topCategories_subCategories{
+    width: 100%;
+    display: block;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .topCategory{
+    width: 25%;
+    text-align: left; 
+    color: inherit;
+    font-family: Arial, verdana, Helvetica, Sans-Serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .topCategory img{
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: all 1.1s;
+  }
+
+  .topCategory2{
+    width: 25%;
+    text-align: left; 
+    color: inherit;
+    font-family: Arial, verdana, Helvetica, Sans-Serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+  }
+
+  .topCategory2 img{
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: all 1.1s;
+  }
+
+  .topCategory a{
+    color: #1c1d1f;
+  }
+
+  .topCategory2 a{
+    color: #1c1d1f;
+  }
+
+  .topCategory img:hover{
+transform: scale(1.1,1.1);
+}
+
+.topCategory2 img:hover{
+  transform: scale(1.1,1.1);
 }
