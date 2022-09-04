@@ -374,7 +374,10 @@ transform: scale(1.1,1.1);
 .topCategory2 img:hover{
   transform: scale(1.1,1.1);
 }
- .feat-container{
+
+/* media query for phones and tablets */
+@media screen and (max-width:799px){
+    .feat-container{
         gap: 1em;
     }
 
@@ -442,9 +445,6 @@ transform: scale(1.1,1.1);
         margin: auto;
     }
 }
-/* media query for phones and tablets */
-@media screen and (max-width:799px){
-   
     
     /* media query for medium screen sizes */
 @media screen and (min-width:800px) and (max-width:1000px){
