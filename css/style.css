@@ -77,27 +77,16 @@
 
 
 
-/*the style for the footer section should be after this comment*/
+/*Styling for footer section*/
 footer {
   background-color: rgba(0, 0, 0, 1);
   color: lightgray;
   font-family: 'Intern', sans-serif;
   padding: 10px;
 }
-.footer_top {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.footer_links {
-  margin-bottom: 40px;
-}
-.footer_links li{
-  margin-top: 10px;
-  list-style-type: none;
-}
-.footer_links a {
-  text-decoration: none;
+footer a {
   color: lightgray;
+  text-decoration: none;
 }
 .footer_lang {
   margin-bottom: 20px;
@@ -109,12 +98,62 @@ footer {
   border: 1px solid lightgray;
 }
 .footer_lang  a {
-  text-decoration: none;
-  color: lightgray;
   display: flex;
   justify-content: space-evenly;
+}
+.footer_lang a i {
+  font-size: 20px;
+}
+.footer_links {
+  margin-bottom: 40px;
+}
+.footer_links li{
+  margin-top: 10px;
+  list-style-type: none;
 }
 .footer_env {
   margin-bottom: 15px;
 }
+.footer_env a i  {
+  font-size: 30px;
+}
+.footer_name {
+  text-align: left;
+}
+.team_name {
+  text-align: center;
+  font-size: 0.7em;
+  color: wheat;
+}
 
+/* Styling for bigger screens*/
+@media (min-width: 600px) {
+  footer {
+    background-color: dimgray;
+    padding: 20px 50px;
+  }
+  .footer_top {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .footer_links  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_links ul:nth-child(2),
+  .footer_links ul:last-child {
+    margin-left: 3rem;
+  }
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer_links ul:nth-child(2),
+  .footer_links ul:last-child {
+    margin-left: 5rem;
+  }
+}
