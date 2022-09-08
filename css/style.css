@@ -9,17 +9,10 @@
   box-sizing: border-box;
 }
 
+/* I deleted most of the styles given to body because it seemed like it was a repetition and most people would give their section its own style. You can delete this line after reviewing */
 body{
-  font-family:'Open Sans', Helvetica, Arial, Sans-Serif;
-  font-weight: 400;
-  line-height: 1.4;
-  font-size: 1.6rem;
-  color: #1c1d1f;
+  font-family:'Inter', sans-serif;
   margin: 0px;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  font-size: 1.6rem;
-  color: #1c1d1f;
 }
 
 
@@ -169,7 +162,7 @@ h2{
 
 /*the style for the 'become an instructor' section should be after this comment*/
 .instructor{
-    max-width: 1000px;
+    width: 100%;
     margin: auto;
     padding: 2rem 1.5rem;
 }
@@ -263,27 +256,14 @@ h2{
 footer {
   background-color: rgba(0, 0, 0, 1);
   color: lightgray;
-  font-family: 'Intern', sans-serif;
-  padding: 10px 1.5rem;
+  /* font-family: 'Intern', sans-serif; */
+  padding: 10px;
+  width: 100%;
 }
 
-.footer_top {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.footer_links {
-  margin-bottom: 40px;
-}
-
-.footer_links li{
-  margin-top: 10px;
-  list-style-type: none;
-}
-
-.footer_links a {
-  text-decoration: none;
+footer a {
   color: lightgray;
+  text-decoration: none;
 }
 
 .footer_lang {
@@ -298,14 +278,35 @@ footer {
 }
 
 .footer_lang  a {
-  text-decoration: none;
-  color: lightgray;
   display: flex;
   justify-content: space-evenly;
 }
 
+.footer_lang a i {
+  font-size: 20px;
+}
+
+.footer_links {
+  margin-bottom: 40px;
+}
+
+.footer_links li{
+  margin-top: 10px;
+  list-style-type: none;
+}
+
 .footer_env {
   margin-bottom: 15px;
+}
+
+.footer_name {
+  text-align: left;
+}
+
+.team_name {
+  text-align: center;
+  font-size: 0.7em;
+  color: wheat;
 }
 
 /*footer section ends here*/
@@ -465,4 +466,37 @@ transform: scale(1.1,1.1);
         max-width: 300px;
         padding: 0px;
     }
+}
+}
+
+/* Styling for bigger screens*/
+@media (min-width: 600px) {
+  footer {
+    background-color: dimgray;
+    padding: 20px 50px;
+  }
+  .footer_top {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .footer_links  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_links ul:nth-child(2),
+  .footer_links ul:last-child {
+    margin-left: 3rem;
+  }
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer_links ul:nth-child(2),
+  .footer_links ul:last-child {
+    margin-left: 5rem;
+  }
 }
