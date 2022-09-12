@@ -9,12 +9,15 @@
   box-sizing: border-box;
 }
 
-/* I deleted most of the styles given to body because it seemed like it was a repetition and most people would give their section its own style. You can delete this line after reviewing */
-body{
-  font-family:'Inter', sans-serif;
-  margin: 0px;
-}
 
+body{
+  font-family:'Open Sans', Helvetica, Arial, Sans-Serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+}
 
 /*the style for the navbar section should be after this comment*/
 
