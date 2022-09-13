@@ -395,6 +395,7 @@ h2{
 /*the style for the 'become an instructor' section should be after this comment*/
 .instructor{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -406,14 +407,21 @@ h2{
 .instructor-image{
   padding: 1rem;
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .instructor-image img {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .become-instructor h2, .become-instructor p{
     margin-bottom: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center; 
 }
 
 .become-instructor a{
@@ -425,10 +433,17 @@ h2{
     text-decoration: none;
     color: white;
     background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .start-teaching{
     margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center; 
 }
 
 
@@ -443,6 +458,10 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center; 
 }
 
 .trust-companies{
@@ -662,24 +681,28 @@ transform: scale(1.1,1.1);
     }
     
     .instructor{
-      display: flex;
+   
+}
+@media screen and (min-width:799px){
+   .instructor{
+      flex-direction: row;
       justify-content: center;
       align-items: center;
     }
-    
-    .instructor-container{
-        
-    }
-    
     .instructor-image img{
         display: block;
         max-width: 300px;
         padding: 0rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .become-instructor{
         text-align: center;
         padding: 0rem;
+        justify-content: center;
+        margin-left: auto;
+        margin-righg: auto;
     }
     
     .become-instructor a{
@@ -688,10 +711,12 @@ transform: scale(1.1,1.1);
         margin-left: auto;
         margin-right: auto;
         border: 1px solid;
+        text-align: center;
+        justify-content: center;
     }
     
     #udemy-business-container{
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
     
     .trust-companies-image{
@@ -708,7 +733,6 @@ transform: scale(1.1,1.1);
         margin: auto;
     }
 }
-    
     /* media query for medium screen sizes */
 @media screen and (min-width:800px) and (max-width:1000px){
     .instructor{
@@ -727,6 +751,10 @@ transform: scale(1.1,1.1);
         display: block;
         max-width: 300px;
         padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center; 
     }
 }
 }
