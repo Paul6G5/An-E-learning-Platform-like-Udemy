@@ -11,6 +11,11 @@
 
 
 body{
+
+  font-family:'Open Sans', Helvetica, Arial, Sans-Serif;
+  color: #1c1d1f;
+  box-sizing: border-box;
+
   font-family: 'Inter', sans-serif;
   /* line-height: 1.4; */
 }
@@ -22,6 +27,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
+
 }
 .top-nav div {
   text-align: justify;
@@ -433,6 +439,7 @@ ul.topCategories_subContainer1{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
+    box-sizing: border-box;
 }
 h2{
     font-weight: 800;
@@ -452,6 +459,7 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .feat-container p{
@@ -486,10 +494,23 @@ h2{
 
 /*the style for the 'become an instructor' section should be after this comment*/
 .instructor{
+
+    width: 100%;
+    margin: auto;
+    padding: 2rem 1.5rem;
+}
+
+.instructor-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .become-instructor{
@@ -550,10 +571,14 @@ h2{
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    box-sizing: border-box;
+
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     text-align: center; 
+
 }
 
 .trust-companies{
@@ -904,6 +929,26 @@ transform: scale(1.1,1.1);
         position: relative;
         margin: auto;
     }
+    .trust-companies-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.trust-companies{
+    background-color: #f7f9f9;
+}
+
+#udemy-business{
+    max-width: 120px;
+}
+
+#business{
+    display: block;
+    width: 80%;
+}
+
 }
     /* media query for medium screen sizes */
 @media screen and (min-width:800px) and (max-width:1000px){
