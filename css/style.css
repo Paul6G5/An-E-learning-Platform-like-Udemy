@@ -666,6 +666,7 @@ footer a {
     padding-right: 5rem;
     padding-bottom: 0;
     padding-top: 0;
+    box-sizing: border-box;
   }
   .header-image{
     width: 55%;
@@ -679,6 +680,7 @@ footer a {
     margin-right: 3rem;
     box-shadow: 10px 10px rgba(210, 210, 210, 0.2);
     padding: 0.5rem 1rem 0.7rem;
+    box-sizing: border-box;
   }
   .header-content p{
     margin: 0;
@@ -690,13 +692,16 @@ footer a {
   }
   .course-selection-content{
     display: block;
+    box-sizing: border-box;
   }
   .course-selection-container{
     padding: 0rem 1.5rem;
+    box-sizing: border-box;
   }
   .subject-drop-down ul{
     display: flex;
     overflow: auto;
+    box-sizing: border-box;
   }
   .subject-drop-down li{
     border: none;
@@ -854,7 +859,7 @@ transform: scale(1.1,1.1);
     }
     .instructor-image img{
         display: block;
-        max-width: 80%;
+        max-width: 70%;
         padding: 0rem;
         margin-left: auto;
         margin-right: auto;
@@ -912,7 +917,7 @@ transform: scale(1.1,1.1);
     
     .instructor-image img{
         display: block;
-        max-width: 80%;
+        max-width: 70%;
         padding: 0px;
         margin-left: auto;
         margin-right: auto;
