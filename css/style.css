@@ -372,7 +372,7 @@ body{
 
 /*the style for the 'student are viewing' section should be after this comment*/
     
-unit-title--container {
+.unit-title--container {
   margin-bottom: 1.6rem;
 }
 
@@ -403,7 +403,7 @@ unit-title--container {
 }
 
 .course-unit--grid {
-  grid-auto-columns: 75%;
+  grid-auto-columns: auto;
 }
 
 .carousel--grid {
@@ -440,7 +440,7 @@ unit-title--container {
 }
 
 .course-card--container {
-  display: flex;
+  display: grid;
   align-items: flex-start;
   position: relative;
 }
