@@ -372,9 +372,311 @@ body{
 
 /*the style for the 'student are viewing' section should be after this comment*/
     
+unit-title--container {
+  margin-bottom: 1.6rem;
+}
 
+.unit-title--has-title {
+  margin-bottom: 1.6rem;
+}
 
+.unit-title--container {
+  max-width: 80rem;
+}
 
+.unit-title--title {
+  max-width: 80rem;
+}
+
+.udlite-heading-xl {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 2.4rem;
+}
+
+.carousel--container {
+  position: relative;
+}
+
+.course-unit--grid {
+  grid-auto-columns: 75%;
+}
+
+.carousel--grid {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-gap: 1.6rem;
+}
+
+.carousel--scroll-lock {
+  overflow-x: auto;
+}
+
+.carousel--scroll-port {
+  scrollbar-width: none;
+  display: flex;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.carousel--scroll-item {
+  min-width: 0.1rem;
+  scroll-snap-align: start;
+}
+
+.popper--popper {
+  position: relative;
+}
+
+.course-card--medium {
+  flex-direction: column;
+  max-width: 37.5rem;
+  min-width: 17.3rem;
+}
+
+.course-card--container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.course-card--medium,
+.course-card--image-wrapper {
+  padding-bottom: 56.25%;
+  width: 100%;
+}
+
+.course-card--image-wrapper {
+  background-color: #1c1d1f;
+  border: 1px solid #d1d7dc;
+  overflow: hidden;
+  position: relative;
+}
+
+.course-card--medium,
+.course-card--course-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.course-card--course-image {
+  display: block;
+  transition: opacity linear 100ms;
+}
+
+.course-card--medium,
+.course-card--main-content {
+  width: 100%;
+}
+
+.course-card--main-content {
+  color: #1c1d1f;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 1px;
+}
+
+.course-card--medium,
+.course-card--course-title {
+  margin-top: 0.8rem;
+}
+
+.browse-carousel--container--full-width {
+  padding-left: 2.4rem;
+  scroll-padding: 2.4rem;
+}
+
+.course-card--course-image {
+  display: block;
+  transition: opacity linear 100ms;
+}
+
+.course-unit--multi-row-container {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.browse-carousel--container--full-width {
+  padding-left: 2.4rem;
+  scroll-padding: 2.4rem;
+}
+
+.course-card--small,
+.course-card--image-wrapper,
+.course-card--large,
+.course-card--image-wrapper {
+  margin-right: 0.8rem;
+}
+
+.course-card--main-content {
+  color: #1c1d1f;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 1px;
+}
+
+.course-card--main-content--2XqiY > *:not(:last-child) {
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: #5624d0;
+  text-decoration: none;
+}
+
+.udlite-text-xs {
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+.udlite-sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.course-card--instructor-list {
+  color: #6a6f73;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.course-card--row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.star-rating--star-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.star-rating--rating-number {
+  margin-right: 0.4rem;
+  color: #b4690e;
+}
+
+.star-rating--star-wrapper,
+.star-rating--medium > svg {
+  display: block;
+  width: 7rem;
+  height: 1.6rem;
+}
+
+.course-card--reviews-text {
+  color: #6a6f73;
+  margin-left: 0.4rem;
+}
+
+.price-text--container {
+  align-items: center;
+  color: #1c1d1f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.price-text--price-part {
+  line-height: 1;
+  padding: 0.4rem 0;
+  margin-right: 0.8rem;
+  white-space: nowrap;
+}
+
+.price-text--price-part:last-child {
+  margin-right: 0;
+}
+
+.course-card--course-badges {
+  display: flex;
+  margin: 0.8rem 0 0.4rem;
+  gap: 0.4rem 0.8rem;
+}
+
+.udlite-badge-bestseller {
+  background-color: #eceb98;
+  color: #3d3c0a;
+}
+
+.udlite-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  white-space: nowrap;
+}
+
+.course-card--medium,
+.course-card--main-content {
+  width: 100%;
+}
+
+.course-card--main-content {
+  color: #1c1d1f;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 1px;
+}
+
+.course-card--medium {
+  flex-direction: column;
+  max-width: 37.5rem;
+  min-width: 17.3rem;
+}
+
+.course-card--container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+@media (max-width: 37.5rem) {
+  .unit-title--container,
+  .unit-title--title-container {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .unit-title--container,
+  .unit-title--title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+@media (min-width: 37.56rem) {
+  .component-margin + .component-margin,
+  .discovery-unit-empty-render + .component-margin {
+    margin-top: 4.8rem;
+  }
+}
+
+@media (max-width: 37.56rem) {
+  .unit-title--container {
+    flex-direction: column;
+  }
+
+  .unit-title--title-container {
+    flex-direction: column;
+  }
+}
 
 /*'student are viewing' section ends here*/
 
