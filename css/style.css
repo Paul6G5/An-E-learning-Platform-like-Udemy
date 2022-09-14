@@ -157,6 +157,7 @@ body{
   .topnav-container {
     box-shadow: 0 3px 5px lightgray;
     padding: 15px;
+    display: block;
   }
   .nav-container {
     display: flex;
