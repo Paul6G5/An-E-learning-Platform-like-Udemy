@@ -440,7 +440,7 @@ body{
 }
 
 .course-card--container {
-  display: grid;
+  display: flex;
   align-items: flex-start;
   position: relative;
 }
@@ -472,7 +472,7 @@ body{
 
 .course-card--medium,
 .course-card--main-content {
-  width: 100%;
+  width: 90%;
 }
 
 .course-card--main-content {
